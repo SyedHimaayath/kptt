@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HERO</title>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -29,7 +29,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			      <div class="logo">
-					<img src="img/15.png" class="logo_img">
+					<img src="img/15.png" class="logo_img" alt="...">
 				</div>
 			    </div>
 
@@ -97,14 +97,14 @@
 		</div>
 	</div>
 
-	<div class="aboutUs col-md-12" id="aboutUs">
+	<div class="aboutUs col-md-12 col-sm-12 col-xs-12" id="aboutUs">
 		<div class="circles">
 			<div class="c01"></div>
 			<div class="c02"></div>
 		</div>
 		<div class="container">
 			<div class="col-md-6 col-sm-12 col-xs-12">
-				<img src="img/appleDT.jpg" class="img_about">
+				<img src="img/appleDT.jpg" class="img_about i1" alt="...">
 			</div>
 			<div class="col-md-6 col-sm-12 col-xs-12 about_text">
 				<div class="g-lineDiv"><hr class="g-line"></div>
@@ -121,13 +121,13 @@
 		</div>
 	</div>
 
-	<div class="cUs-banner col-md-12">
+	<div class="cUs-banner col-md-12 col-sm-12 col-xs-12">
 		<div class="container">
 			
 		</div>
 	</div>
 
-	<div class="serv col-md-12" id="serv">
+	<div class="serv col-md-12 col-sm-12 col-xs-12" id="serv">
 		<div class="container">
 			<div class="col-md-6 col-sm-12 col-xs-12 serv_text">
 				<div class="g-lineDiv"><hr class="g-line"></div>
@@ -154,17 +154,18 @@
 				<div class="btn btn-lg t-btn">Know more</div>
 			</div>
 			<div class="col-md-6 col-sm-12 col-xs-12">
-				<img src="img/apple-watch.jpg" class="img_about">
+				<img src="img/apple-watch.jpg" class="img_about" alt="...">
 			</div>
 		</div>
 	</div>
 
 
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/particles.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/main.js"></script>
 	<script>
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
@@ -174,7 +175,7 @@
 		      var hash = this.hash;
 		      $('html, body').animate({
 		        scrollTop: $(hash).offset().top
-		      }, 800, function(){
+		      }, 1500, function(){
 		        window.location.hash = hash;
 		      });
 		    }
