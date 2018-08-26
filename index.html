@@ -36,11 +36,12 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-			      	<li><a href="#">Home</a></li>
-			        <li><a href="#aboutUs">About</a></li>
-			        <li><a href="#serv">Services</a></li>
-			        <li><a href="#">Careers</a></li>
-			        <li><a href="#">Contact</a></li>
+			      	<li><a class="closeB closeBt">X</a></li>
+			      	<li><a href="#" class="closeBt">Home</a></li>
+			        <li><a href="#aboutUs" class="closeBt">About</a></li>
+			        <li><a href="#serv" class="closeBt">Services</a></li>
+			        <li><a href="#" class="closeBt">Careers</a></li>
+			        <li><a href="#" class="closeBt">Contact</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -164,7 +165,7 @@
 		      var hash = this.hash;
 		      $('html, body').animate({
 		        scrollTop: $(hash).offset().top
-		      }, 1500, function(){
+		      }, 800, function(){
 		        window.location.hash = hash;
 		      });
 		    }

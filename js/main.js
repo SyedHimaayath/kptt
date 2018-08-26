@@ -9,7 +9,9 @@ $(window).on('scroll',function(){
 	c1.style.top=wScroll*0.1+'px';
 	var c2 = document.querySelector('.c02')
 	c2.style.top=wScroll*0.15+'px';
-	var i1 = document.querySelector('.i1')
-	i1.style.top=wScroll*0.1+'px';
 	
+});
+
+$('.closeBt').on('click',function(){
+	$('.collapse').removeClass('in')
 });
