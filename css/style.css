@@ -484,7 +484,7 @@ body{
 }
 .collapsible:hover{
 	background-color: rgba(0,0,0,0.8);
-	color: white;
+	color: #00ab58;
 }
 .collapsible:active{
 	background-color: rgba(0,0,0,0.8);
