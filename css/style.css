@@ -68,14 +68,41 @@ body{
 	color: white;
 	vertical-align: middle;
 	height: 50vh;
-	margin-top: 25vh;
+	margin-top: 22vh;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .center_div>h1{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Caveat', sans-serif;
 }
 .center_div .btn{
 	background-color: white;
 	color: #00ab58;
+	transition: 0.3s;
+}
+.center_div .btn:{
+	padding: 15px;
+}
+.pullD{
+	padding: 0px;
+	/*background-color: white;*/
+	margin-top: 30px;
+	color: #00ab58;
+	font-weight: bolder;
+	font-size: 22px;
+	border-radius: 50%;
+	text-align: center;
+}
+.pullD>a{
+	color: white;
+}
+.pullD>span{
+	margin: 0px auto;
+}
+.pullD{
+	transition: fade-out
 }
 .whiteBoard{
 	background-color: #fff;
@@ -210,6 +237,12 @@ body{
 	border-color: black;
 	background-color: white;
 	color: #00ab58;
+	transition: 0.5s;
+}
+.t-btn:hover{
+	background-color: #00ab58;
+	color: white;
+
 }
 .cUs-banner{
 	background-color: rgba(0,171,0,0);
@@ -255,6 +288,232 @@ body{
 .serv_text>p{
 	font-size: 16px;
 	margin-bottom: 20px;
+}
+.foot{
+	min-height: 350px;
+	background-color: #555;
+	color: white;
+	column-count: 3;
+}
+
+
+/*===========================
+ About Us page styles 
+ ==========================*/
+.abs{
+	background-color: white;
+	/*height: 100%;*/
+}
+.min-head>.container{
+	margin:0px auto;
+	padding:0px;
+	background-color: #00ab58;
+	width: 100%;
+}
+.abt-full{
+	background-color: transparent;
+	width: 100%;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	/*z-index: 10;*/
+	/*background-image: url(blurr.jpeg);
+	background-position: left;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+.abt-full>.container{
+	/*color: white;*/
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0px auto;]
+}
+.abt-full>.container>.mState>.mh1{
+	text-align: center;
+	font-size: 42px;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Caveat', cursive;
+}
+.abt-full>.container>.mState>p{
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align:center;
+}
+.abt-full>.container>.abt>.mh1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.abt-full>.container>.abt>p{
+	font-size: 18px;
+	text-align: justify;
+	font-family: 'Ubuntu', sans-serif;
+	/*column-count: 3;*/
+}
+.abt-full>.container>.mState{
+	margin: 50px auto;
+}
+.abt-des{
+	position: absolute;
+	z-index: -1;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	min-height: 100vh;
+}
+.d1{
+	height: 80vh;
+	width: 80vh;
+	background-color: #00ab58;
+	border-radius: 50%;
+	position: fixed;
+	right: -10vh;
+	top: 30vh;
+}
+.d2{
+	height: 75vh;
+	width: 75vh;
+	background-color: white;
+	border-radius: 50%;
+	position: fixed;
+	right: -10vh;
+	top: 30vh;
+	/*background-image: url(blurr.jpeg);
+	background-position: unset;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+/*=============================
+	Services page style
+=============================*/
+.servicePage{
+	/*min-height: 100vh;*/
+	background-color: white;
+	/*padding: 30px;*/
+}
+.serv_cards{
+	margin-top: 40px;
+	background-color: transparent;
+	height: auto;
+	width: 100%;
+	padding: 0px;
+}
+.serv_cards>.container{
+	padding: 0px;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.card{
+	height:450px;
+	margin:10px;
+	background-color: transparent;
+	border:3px solid #001111;
+}
+.cd1{
+	/*background-color: salmon;*/
+	margin-right: 20px;
+}
+.cd2{
+	/*background-color: cyan;*/
+	margin-left: 20px;
+}
+.servicePage>.abt-des{
+	overflow: scroll;
+	/*background-color: #fffde7;*/
+}
+.servicePage>.abt-des>.d1{
+	height: 80vh;
+	width: 80vh;
+	background-color: #00ab58;
+	border-radius: 50%;
+	position: fixed;
+	right: -10vh;
+	top: 40vh;
+}
+.servicePage>.abt-des>.d2{
+	height: 75vh;
+	width: 75vh;
+	background-color: white;
+	border-radius: 50%;
+	position: fixed;
+	right: -10vh;
+	top: 40vh;
+}
+.servicePage>.serv-full>.container{
+	padding: 30px;
+}
+
+
+/*=============================
+	Careers page style
+=============================*/
+.c-full{
+	padding-top: 15vh;
+}
+.Obox{
+	padding: 0px;
+	padding-top: 40px;
+	min-height: 100vh;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: rgba(0,0,0,0.3);
+  color: #001111;
+  cursor: pointer;
+  padding: 18px;
+  /*width: 100%;*/
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 3px 0px;
+  transition: 0.5s;
+}
+.collapsible:hover{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+.collapsible:active{
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  /*background-color: #ccc;*/
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding:18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  text-align: justify;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #00ab58;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 @media screen and (max-width: 720px){
@@ -350,12 +609,45 @@ body{
 	.navbar-default .navbar-nav>li>.closeB{
 		text-align: right;
 		font-size: 22px;
-		font-weight: bolder;
+		font-weight: 100;
 		padding-top: 0px;
 		margin-top: 0px;
 	}
 	.navbar-nav{
 		padding-top: 0px;
+	}
+	.pullD{
+		display: none;
+	}
+
+
+	.abt-full>.container>{
+		height: 100%;
+	}
+	.abt-des{
+		min-height: 100vh;
+	}
+	#abs{
+		background-color: white;
+	}
+	.d1{
+		height: 30vh;
+		width: 60vh;
+		background-color: #00ab58;
+		/*border-radius: 50%;*/
+		position: fixed;
+		right: -20vh;
+		top: 35vh;
+
+	}
+	.d2{
+		height: 25vh;
+		width: 55vh;
+		background-color: white;
+		/*border-radius: 50%;*/
+		position: fixed;
+		right: -20vh;
+		top: 35vh;
 	}
 }
 
