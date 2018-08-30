@@ -5,7 +5,9 @@
 }
 html{
 	width: 100%;
-	height: 100%;	
+	height: 100%;
+	overflow-x: hidden;	
+	
 }
 body{
 	background-color: #00ab58;
@@ -297,11 +299,47 @@ body{
 	margin-bottom: 20px;
 }
 .foot{
-	min-height: 350px;
-	background-color: #555;
+	height: 50vh;
+	background-color: #212121;
 	color: white;
-	column-count: 3;
+	/*transform: rotate(5deg);*/
+	/*overflow: hidden;*/
+	padding-top: 30px;
+	width: 120%;
+	border-radius: -30%;
+	position: relative;
+	bottom: 0;
+	left: -10%;
 }
+.foot>.footBox{
+	height: 50vh;
+	width: 100%;
+	padding: 30vh;
+	padding-top: 15vh;
+	transform: rotate(3deg);
+	overflow: hidden;
+	position: absolute;
+	top: -12vh;
+	background-color: #212121;
+}
+.footBox>p{
+	transform: rotate(-3deg);
+}
+.trans-foot{
+	/*display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;*/
+	color: white;
+	height: 50vh;
+	position: relative;
+	bottom: 50vh;
+	left: 0px;
+	padding:30px;
+	z-index: 99;
+	margin: 0px auto;
+}
+
 
 
 /*===========================
