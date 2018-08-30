@@ -27,6 +27,12 @@ body{
 	height:100vh;
 	width: 100%;
 }
+.jumbotron>.container>nav{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background-color: #00ab58;
+}
 .particles{
 	height: 100vh;
 	width: 100%;
@@ -68,7 +74,7 @@ body{
 	color: white;
 	vertical-align: middle;
 	height: 50vh;
-	margin-top: 22vh;
+	margin-top: 37vh;
 	display: inline-flex;
 	flex-direction: column;
 	align-items: center;
@@ -172,7 +178,7 @@ body{
 }
 .c01{
 	position: absolute;
-	top: 10vh;
+	top: 20vh;
 	left: 10vh;
 	height: 500px;
 	width: 500px;
@@ -304,11 +310,43 @@ body{
 	background-color: white;
 	/*height: 100%;*/
 }
+/*.logo_img{
+	height: 60px;
+	width: 100px;
+}*/
+.min-head{
+	width: 100%;
+	position: fixed;
+	height: auto;
+	z-index: 100;
+}
 .min-head>.container{
 	margin:0px auto;
 	padding:0px;
 	background-color: #00ab58;
 	width: 100%;
+}
+.navbar.myheader{
+	transition: 0.3s;
+}
+.nav.navbar-nav.navbar-right{
+	transition: 0.3s;
+}
+.logo_img{
+	transition: 0.3s;
+}
+.navbar.myheader.rem{
+	margin-bottom: 0px;
+	transition: 0.5s;
+}
+.nav.navbar-nav.navbar-right.desc{
+	padding: 10px 0px;
+	transition: 0.5s;
+}
+.logo_img.shrink{
+	height: 60px;
+	width: 100px;
+	transition: 0.5s;
 }
 .abt-full{
 	background-color: transparent;
@@ -318,7 +356,8 @@ body{
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	/*z-index: 10;*/
+	margin-top: 15vh;
+	z-index: 1;
 	/*background-image: url(blurr.jpeg);
 	background-position: left;
 	background-attachment: fixed;
@@ -366,6 +405,7 @@ body{
 	width: 100%;
 	overflow: hidden;
 	min-height: 100vh;
+	margin-top: 20vh;
 }
 .d1{
 	height: 80vh;
