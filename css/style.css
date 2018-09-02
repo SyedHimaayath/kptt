@@ -47,7 +47,7 @@ body{
 	border: 0px;
 }
 .logo{
-	padding-top: 20px;
+	padding-top: 12px;
 }
 .logo_img{
 	height: 110px;
@@ -254,7 +254,7 @@ body{
 
 }
 .cUs-banner{
-	background-color: rgba(0,171,0,0);
+	background-color: #212121;
 }
 .cUs-banner>.container{
 	height: 180px;
@@ -319,8 +319,9 @@ body{
 	top: -12vh;
 	background-color: #212121;
 }
-.footBox>p{
+.footBox>.socio{
 	transform: rotate(-3deg);
+	display: none;
 }
 .trans-foot{
 	color: white;
@@ -331,7 +332,53 @@ body{
 	z-index: 99;
 	margin: 0px auto;
 }
-
+.socio-list{
+	list-style: none;
+	margin: 0px auto;
+}
+.socio-list>li{
+	display: inline-block;
+	margin: 0px 3vw;
+}
+.foot>.footBox>.socio>.socio-list>li{
+	display: inline-block;
+	margin: 6vw;
+}
+.socio-list>li>a>i{
+	text-decoration: none;
+	color: white;
+}
+.foot-img>img{
+	height: 50px;
+	width: 100px;
+}
+.foot-menu{
+	list-style: none;
+	/*margin: 2vh auto;*/
+	text-align:right;
+}
+#foot>.footBox>.fm>.foot-menu{
+	text-align: center;
+}
+.foot-menu>li{
+	display: inline-block;
+	margin:2vw;
+}
+.footBox>.fm>.foot-menu>li{
+	display: block;
+	text-align: center;
+	margin: 7vh 0px;
+}
+.foot-menu>li>a{
+	text-decoration: none;
+	color: white;
+}
+.fm{
+	display: none;
+}
+/*.trans-foot>.socio>.socio-list>li{
+	text-align: left;
+}*/
 
 
 /*===========================
@@ -375,9 +422,12 @@ body{
 	transition: 0.5s;
 }
 .logo_img.shrink{
-	height: 60px;
-	width: 100px;
+	height: 50px;
+	width: 95px;
 	transition: 0.5s;
+}
+.nav.navbar-nav.navbar-right.desc>li>a{
+	margin: 15px;
 }
 .abt-full{
 	background-color: transparent;
@@ -388,6 +438,7 @@ body{
 	justify-content: center;
 	min-height: 100vh;
 	margin-top: 15vh;
+	margin-bottom: 10vh;
 	z-index: 1;
 	/*background-image: url(blurr.jpeg);
 	background-position: left;
@@ -401,7 +452,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0px auto;]
+	margin: 0px auto;
 }
 .abt-full>.container>.mState>.mh1{
 	text-align: center;
@@ -436,7 +487,7 @@ body{
 	width: 100%;
 	overflow: hidden;
 	min-height: 100vh;
-	margin-top: 20vh;
+	margin-top: 15vh;
 }
 .d1{
 	height: 80vh;
@@ -756,6 +807,10 @@ body{
 	.trans-foot{
 		display: none;
 	}
+	.footBox>.socio{
+		display: block;
+		transform: rotate(0deg);
+	}
 	.socio-list{
 		list-style: none;
 		margin: 0px auto;
@@ -763,7 +818,9 @@ body{
 	.socio-list>li{
 		display: inline-block;
 	}
-
+	.fm{
+		display: block;
+	}
 }
 
 
