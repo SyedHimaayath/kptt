@@ -670,7 +670,9 @@ p{
 	Careers page style
 =============================*/
 .c-full{
-	padding-top: 15vh;
+	padding: 15vh 0px;
+	min-height: 100vh;
+	padd
 }
 .c-full>.container>.abt>p{
 	text-align: center;
@@ -731,6 +733,18 @@ p{
 }
 .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.jDet{
+	padding: 5px;
+}
+.jDet>table>tbody>tr>td{
+	padding: 5px 5px;
+}
+.jDet>h3, p{
+	padding: 0px 5px;
+}
+.jDet>p{
+	text-align: justify;
 }
 
 
