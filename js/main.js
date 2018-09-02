@@ -31,7 +31,7 @@
 //     }
 // });
 
-$("#jumbo").addClass("load");​
+// $("#jumbo").addClass("load");​
 
 $(document).on("scroll", function(){
 
