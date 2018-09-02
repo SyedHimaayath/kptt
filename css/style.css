@@ -445,8 +445,9 @@ p{
 	/*color: #00ab58;*/
 }
 .touch>p{
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 2px;
+	font-weight: 100;
 }
 .socio>.socio-list>li>a>i:hover{
 	color: #00ab58;
@@ -461,6 +462,10 @@ p{
 	background-color: #00ab58;
     border: 1px;
     height: 2px;
+}
+.touch>h2{
+	font-weight: 100;
+	letter-spacing: 2px;
 }
 .touch>a>i{
 	text-decoration: none;
@@ -611,7 +616,10 @@ p{
 	background-color: white;
 	/*padding: 30px;*/
 }
-.serv_cards{
+.serv-full>.container>.abt>p{
+	text-align: center;
+}
+/*.serv_cards{
 	margin-top: 40px;
 	background-color: transparent;
 	height: auto;
@@ -630,15 +638,8 @@ p{
 	margin:10px;
 	background-color: transparent;
 	border:3px solid #001111;
-}
-.cd1{
-	/*background-color: salmon;*/
-	margin-right: 20px;
-}
-.cd2{
-	/*background-color: cyan;*/
-	margin-left: 20px;
-}
+}*/
+
 .servicePage>.abt-des{
 	overflow: scroll;
 	/*background-color: #fffde7;*/
@@ -700,6 +701,7 @@ p{
   margin: 3px 0px;
   transition: 0.5s;
   font-weight: bold;
+  border-radius: 5px;
 }
 .collapsible:hover{
 	background-color: rgba(0,0,0,0.8);
