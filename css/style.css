@@ -262,7 +262,7 @@ body{
 	justify-content: center;
 }
 .cUs-banner>.container{
-	height: 180px;
+	min-height: 180px;
 	margin:0px auto;
 	display: inline-flex;
 	flex-direction: row;
@@ -272,6 +272,7 @@ body{
 .cbtn{
 	border-right: 2px solid white;
 	padding: 20px;
+	padding-right: 3vw;
 }
 .cbtn>h1{
 	padding: 0px;
@@ -413,6 +414,7 @@ body{
 }
 .touch>p{
 	font-size: 18px;
+	letter-spacing: 2px;
 }
 /*.trans-foot>.socio>.socio-list>li{
 	text-align: left;
@@ -696,12 +698,28 @@ body{
 		align-items: center;
 		justify-content: center;*/
 	}
+	.nav.navbar-nav.navbar-right{
+		height: 100vh;
+		width: 100%;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0px auto;
+	}
 	.navbar-default .navbar-nav>li{
 		text-align: center;
-		padding-top: 30px;
+		padding-top: 3vh;
 	}
 	.navbar-header{
 		border:0px;
+	}
+	.nav.navbar-nav.navbar-right.desc{
+		padding:0px;
+		/*transition: 0.5s;*/
+	}
+	.nav.navbar-nav.navbar-right.desc>li>a{
+		margin: 25px;
 	}
 	.center_div{
 		margin-top: 40vh;
@@ -766,15 +784,21 @@ body{
 		padding:20px 0px;
 		text-align: center;
 	}
+	.navbar-default .navbar-nav>li{
+		width: 100%;
+	}
 	.navbar-default .navbar-nav>li>.closeB{
 		display: block;
 	}
-	.navbar-default .navbar-nav>li>.closeB{
+	.navbar-default .navbar-nav>li>.closeB.closeBt{
 		text-align: right;
 		font-size: 22px;
 		font-weight: 100;
 		padding-top: 0px;
 		margin-top: 0px;
+	}
+	.navbar-default .navbar-nav>li>.closeBt{
+		text-align: center;
 	}
 	.navbar-nav{
 		padding-top: 0px;
@@ -865,6 +889,38 @@ body{
 	}
 	#foot>.footBox>.foot-img{
 		display: block;
+	}
+	.cUs-banner>.container{
+		min-height: 180px;
+		margin:0px auto;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.cbtn{
+		border-right: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.cbtn>h1{
+		padding: 0px;
+		margin:10px;
+	}
+	.ctext{
+		margin: 0px;
+	}
+	.ctext>p{
+		margin: 0px;
+		font-size: 18px;
+		text-align: center;
+		padding: 0px;
+	}
+	.cUs-banner>.container>div{
+		margin: 1vh 0px;
+	}
+	.cUs-banner>.container>.t-btn{
+		width: 100%;
 	}
 }
 
