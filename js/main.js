@@ -31,6 +31,7 @@
 //     }
 // });
 
+$("#jumbo").addClass("load");​
 
 $(document).on("scroll", function(){
 
@@ -39,7 +40,7 @@ $(document).on("scroll", function(){
 	// c1.style.top=wScroll*0.1+'px';
 	// var c2 = document.querySelector('.c02')
 	// c2.style.top=wScroll*0.15+'px';
-	
+
 	if($(document).scrollTop() > 100){
 	  $(".logo_img").addClass("shrink");
 	  $(".navbar-nav").addClass("desc")
