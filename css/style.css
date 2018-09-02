@@ -12,6 +12,9 @@ html{
 body{
 	background-color: #00ab58;
 }
+p{
+	font-family: "Ubuntu", sans-serif;
+}
 .container{
 	margin:0px auto;
 }
@@ -237,29 +240,50 @@ body{
 	margin-top: 0px;
 	margin-bottom: 20px; 
 	display: block;
+	font-size: 24px;
 }
 .about_text>p{
 	font-size: 16px;
 	margin-bottom: 20px;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 1.5px;
+	/*font-size: 18px;*/
 }
 .t-btn{
 	border-color: black;
 	background-color: white;
 	color: #00ab58;
 	transition: 0.5s;
+	/*padding: 10px;*/
 }
+/*.t-btn>a{
+	text-decoration: none;
+	color: #00ab58;
+	padding: 10px 16px;
+}
+.btn .btn-lg .t-btn{
+	padding: 0px;
+}*/
+/*.t-btn>a:hover{
+	color: white;
+}*/
 .t-btn:hover{
 	background-color: #00ab58;
 	color: white;
-
 }
 .cUs-banner{
-	background-color: #212121;
+	/*background-color: #212121;*/
 	color: white;
 	display: inline-flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-image: url(blurr.jpeg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px;
 }
 .cUs-banner>.container{
 	min-height: 180px;
@@ -268,15 +292,19 @@ body{
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	background-color: rgba(33,33,33,0.4);
+	width: 100%;
 }
 .cbtn{
-	border-right: 2px solid white;
+	border-right: 1px solid white;
 	padding: 20px;
 	padding-right: 3vw;
 }
-.cbtn>h1{
+.cbtn>h2{
 	padding: 0px;
 	margin:10px;
+	font-weight: 100;
+	letter-spacing: 2px;
 }
 .ctext>p{
 	margin: 0px;
@@ -319,10 +347,13 @@ body{
 	margin-top: 0px;
 	margin-bottom: 20px; 
 	display: block;
+	font-size: 24px;
 }
 .serv_text>p{
-	font-size: 16px;
 	margin-bottom: 20px;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 16px;
 }
 .foot{
 	min-height: 60vh;
@@ -368,11 +399,12 @@ body{
 }
 .foot>.footBox>.socio>.socio-list>li{
 	display: inline-block;
-	margin: 6vw;
+	margin: 5vw;
 }
 .socio-list>li>a>i{
 	text-decoration: none;
 	color: white;
+	padding:10px;
 }
 .foot-img>img{
 	height: 80px;
@@ -396,7 +428,7 @@ body{
 .footBox>.fm>.foot-menu>li{
 	display: block;
 	text-align: center;
-	margin: 7vh 0px;
+	margin: 6vh 0px;
 }
 .foot-menu>li>a{
 	text-decoration: none;
@@ -415,6 +447,24 @@ body{
 .touch>p{
 	font-size: 18px;
 	letter-spacing: 2px;
+}
+.socio>.socio-list>li>a>i:hover{
+	color: #00ab58;
+	border:0.9px solid #00ab58;
+	padding: 9px;
+	border-radius: 5px;
+}
+.foot-menu>li>a:hover{
+	color: #00ab58;
+}
+.touch>hr{
+	background-color: #00ab58;
+    border: 1px;
+    height: 2px;
+}
+.touch>a>i{
+	text-decoration: none;
+	color: white;
 }
 /*.trans-foot>.socio>.socio-list>li{
 	text-align: left;
@@ -622,6 +672,10 @@ body{
 .c-full{
 	padding-top: 15vh;
 }
+.c-full>.container>.abt>p{
+	text-align: center;
+	letter-spacing: 1px;
+}
 .Obox{
 	padding: 0px;
 	padding-top: 40px;
@@ -640,9 +694,10 @@ body{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   margin: 3px 0px;
   transition: 0.5s;
+  font-weight: bold;
 }
 .collapsible:hover{
 	background-color: rgba(0,0,0,0.8);
