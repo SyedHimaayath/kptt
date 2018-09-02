@@ -47,7 +47,7 @@ body{
 	border: 0px;
 }
 .logo{
-	padding-top: 12px;
+	padding-top: 17px;
 }
 .logo_img{
 	height: 110px;
@@ -255,9 +255,34 @@ body{
 }
 .cUs-banner{
 	background-color: #212121;
+	color: white;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .cUs-banner>.container{
 	height: 180px;
+	margin:0px auto;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.cbtn{
+	border-right: 2px solid white;
+	padding: 20px;
+}
+.cbtn>h1{
+	padding: 0px;
+	margin:10px;
+}
+.ctext>p{
+	margin: 0px;
+	font-size: 22px;
+}
+.cUs-banner>.container>div{
+	margin: 0px 3vw;
 }
 .serv{
 	padding: 60px;
@@ -450,7 +475,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	margin-top: 15vh;
+	margin-top: 13vh;
 	margin-bottom: 10vh;
 	z-index: 1;
 	/*background-image: url(blurr.jpeg);
@@ -490,7 +515,7 @@ body{
 	/*column-count: 3;*/
 }
 .abt-full>.container>.mState{
-	margin: 50px auto;
+	margin: 40px auto;
 }
 .abt-des{
 	position: absolute;
