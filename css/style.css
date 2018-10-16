@@ -831,8 +831,28 @@ p{
 .jDet>.ap-btn>.t-btn{
 	padding: 8px 16px;
 }
-
-
+.modal-content{
+	margin-top:10vh;
+}
+.modal-body{
+	padding: 3vw;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.modal-body>ul{
+	padding-left: 10px;
+}
+.modal-body>ul>li>ul{
+	padding-top: 1.2vh;
+	padding-left: 8vw;
+	line-height: 1.5em;
+}
+.modal-body>div{
+	padding-top: 30px;
+}
+.modal-body>div>p{
+	font-size: 1.1em;
+}
 
 
 @media screen and (max-width: 720px){
