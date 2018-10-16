@@ -41,7 +41,7 @@ $(document).on("scroll", function(){
 	// var c2 = document.querySelector('.c02')
 	// c2.style.top=wScroll*0.15+'px';
 
-	if($(document).scrollTop() > 100){
+	if($(document).scrollTop() > 70){
 	  $(".logo_img").addClass("shrink");
 	  $(".navbar-nav").addClass("desc")
 	  $(".myheader").addClass("rem")

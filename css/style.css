@@ -2,6 +2,8 @@
 	margin: 0px;
 	padding: 0px;
 	/*overflow: hidden;*/
+	
+	font-family: "Ubuntu", sans-serif;
 }
 html{
 	width: 100%;
@@ -18,20 +20,7 @@ p{
 .container{
 	margin:0px auto;
 }
-.myheader{
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
-}
-#particles-js{
-	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
-}
+
 .center_div{
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -833,6 +822,9 @@ p{
 }
 .modal-content{
 	margin-top:10vh;
+}
+.dark{
+	font-weight: bolder;
 }
 .modal-body{
 	padding: 3vw;
