@@ -333,6 +333,16 @@ p{
 	background-color: rgba(33,33,33,0.4);
 	width: 100%;
 }
+.ctbtn>a{
+	text-decoration: none;
+	color: #00ab58;
+}
+.ctbtn>a:hover{
+	color: #fff;
+}
+.cUs-banner>.container>div:hover{
+	color: #fff;
+}
 .cbtn{
 	border-right: 1px solid white;
 	padding: 20px;
@@ -845,7 +855,57 @@ p{
 .modal-body>div>p{
 	font-size: 1.1em;
 }
-
+#cont{
+	padding:0px;
+	height: 100vh;
+	background-image: url(../img/bgcheck.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#cont>.container{
+	padding: 0px;
+	width:100vw;
+	background-color: rgba(0,40,35,0.7);
+}
+.contactDiv{
+	padding: 0px;
+	width: 100%;
+	color: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*min-width: 100%;*/
+	min-height: 100vh;
+}
+.container>.contactDiv>.row>ul{
+	margin-top: 5vh;
+	list-style: none;
+}
+.container>.contactDiv>.row>ul>li{
+	display: inline-flex;
+	margin:0px 10px;
+	font-size: 1.2em;
+}
+.container>.contactDiv>.row>ul>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+.ctMain{
+	margin:5vh 0px;
+	text-align: center;
+}
+.ctMain>h1{
+	letter-spacing: 0.2em;
+}
+.container>.contactDiv>.row{
+	position: absolute;
+	bottom: 5vh;
+	text-align: center;
+	margin-left: 0px;
+}
 
 @media screen and (max-width: 720px){
 	body{
@@ -1103,6 +1163,13 @@ p{
 	}
 	.cUs-banner>.container>.t-btn{
 		width: 100%;
+	}
+	.ctMain{
+		margin:5vh 0px;
+		text-align: center;
+	}
+	.ctMain>h1{
+		letter-spacing: 0em;
 	}
 }
 
